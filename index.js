@@ -71,3 +71,15 @@ e.g - number,bigint,string,boolean,null-standalone value,undefined,symbol,object
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+/* comparison of datatypes in js */
+// console.log("2">1)
+// console.log("02">1)
+// console.log("02">1)
+console.log(null>0)
+console.log(null==0)
+console.log(null>=0) // true because while using comparision it convert null to 0
+
+console.log(undefined==0)
+//please avoid these comparision and write clean code 
+//Difference between '==' and '===' is '===' is strict check mean (value and data type both)
+
