@@ -37,9 +37,37 @@ e.g - number,bigint,string,boolean,null-standalone value,undefined,symbol,object
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 /*Datatype conversion in js*/
-let myscore ='87jkh'; //try 0,undefined,true
-let valueInNumber = Number(myscore); //explicit conversion
-console.log(typeof myscore);
-console.log(valueInNumber);  //NaN is a datatype
+// let myscore ='87jkh'; //try 0,undefined,true
+// let valueInNumber = Number(myscore); //explicit conversion
+// console.log(typeof myscore);
+// console.log(valueInNumber);  //NaN is a datatype
 
+// let value=3
+// let negvalue= -value
+// console.log(negvalue)
+
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/*String to number conversion */
+// let str1="hello"
+// let str2="  Mohit"
+// console.log(str1+str2);
+// console.log("1"+2)
+// console.log(2+"1")
+// console.log(2+2+"1") //interesting actually this is according to ECMA guidelines
+
+// console.log(3+89*55/45) //please use parenthesis instead of being smart and write clean code
+// console.log(+true)
+
+// let num1,num2,num3
+// num1=num2=num3=2+2 //again dont write messy code please
+// console.log(num2)
+
+// let gamecounter=100
+// gamecounter++ //postincrement
+// ++gamecounter //preincrement
+// console.log(gamecounter)
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------
 
